@@ -1,0 +1,183 @@
+header {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    display: table;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.menu_dop, .catalog {
+    align-items: center;
+}nu_dop, .catalog {
+    box-sizing: border-box;
+    padding: 20px 40px;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    position: relative;
+    grid-gap: 10px;
+}
+.logo{
+    width: 202px;
+    height: 60px; 
+    margin-right: 50px;
+    z-index: 1;
+    border: none;
+    position: relative;
+}
+.dopinfo {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 5px 10px;
+    flex: 1;
+    justify-content: flex-end;
+}
+a:link, a:visited {
+    color: #0c4dca;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(55, 83, 216, 0.4);
+}
+
+*, a, h1, h2, h3, h4, body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+a {
+    outline: medium none;
+    text-decoration: none;
+    /* transition: all 0.5s ease 0s; */
+}
+@media screen and (max-width: 1320px) {
+    .topinfo li span, .top em {
+        display: none;
+    }
+}
+.dopinfo li span {
+    color: #808080;
+    font-weight: normal;
+}
+.dopinfo li {
+    margin: 5px 0;
+    font-size: 16px;
+    list-style: none;
+    font-weight: bold;
+}
+.sspec_form_btn.border-link {
+    margin: -10px 0;
+    color: inherit;
+    border-color: initial;
+}
+.border-link, a.border-link {
+    border: 1px solid #e0e0e0;
+    border-radius: 100px;
+    color: #333;
+    display: table;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+}
+.icon-delivery:before {
+    content: "";
+}
+.border-link:before {
+    background: #0c4dca;
+    border-radius: 50px;
+    color: #fff;
+    font-family: intersite;
+    line-height: 1px;
+    margin: 0 5px 0 0;
+    padding: 2px;
+}
+.dep{
+    background: url(/img/truck.png);
+}
+.catalog {
+     margin: 0;
+     padding: 0 40px;
+     background: #0c4dca;
+     -webkit-overflow-scrolling: touch;
+     align-items: flex-start;
+     flex-wrap: nowrap;
+     -webkit-justify-content: space-between;
+     justify-content: space-between;
+   
+}
+.menu_dop, .catalog {
+    box-sizing: border-box;
+    padding: 20px 40px;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    position: relative;
+    grid-gap: 10px;
+}
+menu {
+    display: inline-block;
+    padding: 23px 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    -webkit-align-self: center;
+    align-self: center;
+}
+menu li {
+    list-style: none;
+    margin: 5px 10px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+header menu li a:visited {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+}
+ul.drop_ {
+    margin: 0;
+    list-style: none;
+}
+ul.top {
+    border-left: 1px solid #4c6ce3;
+    list-style: none;
+    padding: 10px 0 10px 25px;
+    grid-gap: 10px;
+    align-self: center;
+    display: flex;
+}
+@media screen and (max-width: 1320px) {
+    .top li:last-child a {
+        margin: 0;
+    }
+}
+.top > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    display: flex;
+    grid-gap: 10px;
+}
+.top li i {
+    float: left;
+    margin: -4px 0;
+    padding: 0;
+    color: #fff;
+}
+i {
+    font-family: 'intersite' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 28px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

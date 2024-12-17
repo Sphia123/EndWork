@@ -1,0 +1,124 @@
+.catalogpage #content {
+    padding-right: 0;
+    /* text-align: center; */
+}
+@media screen and (max-width: 1400px) {
+    #content {
+        padding-right: 0;
+    }
+}
+
+#content {
+    width: 80%;
+    padding: 30px 0 30px 40px;
+    position: relative;
+}
+aside, .hit_items, .block, #content {
+    display: table-cell;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+#content header {
+    background: #f7f7f7;
+    margin: -30px 0 30px -40px;
+    padding: 30px 80px 30px 40px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    box-sizing: content-box;
+    text-align: left;
+}
+header {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    display: table;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+h1 {
+    font-size: 36px;
+    max-width: 1090px;
+    display: inline-block;
+}
+#content ul, #content ol {
+    margin-bottom: 20px;
+    max-width: 980px;
+    padding: 0 0 0 15px;
+}
+.drop_.bt {
+    position: absolute;
+    margin: -15px 0 !important;
+    right: 80px;
+    top: 50%;
+    z-index: 1;
+}
+ul.drop_ {
+    margin: 0;
+    list-style: none;
+}
+#content ul li, #content ol li {
+    margin-bottom: 10px;
+}
+.drop_.bt .form_a {
+    background: #ffdd2d;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-sizing: content-box;
+    border: none !important;
+    box-shadow: 0 9px 19px -8px rgba(0, 0, 0, .2);
+    display: inline-block;
+}
+a:link, a:visited {
+    color: #0c4dca;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(55, 83, 216, 0.4);
+}
+#content ul, #content ol {
+    margin-bottom: 20px;
+    max-width: 980px;
+    padding: 0 0 0 15px;
+}
+ul.drop_.dropit > li > ul {
+    display: block;
+}
+ul.drop_ .dropit-submenu {
+    font-size: 14px;
+    background: #fff;
+    border-radius: 4px;
+}
+ul.drop_ > li > ul {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    min-width: auto;
+    padding: 0;
+    z-index: 999;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    list-style: outside none none;
+    opacity: 0;
+}
+ul.drop_ li ul li {
+    position: relative;
+    text-align: left;
+    margin: 10px !important;
+}
+ul.drop_ ul.dropit-submenu li a {
+    height: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0 !important;
+    text-align: left;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    color: #444;
+}
+ul.dropit-submenu li a {
+    padding: 0;
+}
+
+
+
